@@ -13,6 +13,10 @@
 		4D108400265D453B00EDCD23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D1083FE265D453B00EDCD23 /* Main.storyboard */; };
 		4D108402265D453F00EDCD23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D108401265D453F00EDCD23 /* Assets.xcassets */; };
 		4D108405265D453F00EDCD23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D108403265D453F00EDCD23 /* LaunchScreen.storyboard */; };
+		4D108410265D45FE00EDCD23 /* Filme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D10840F265D45FE00EDCD23 /* Filme.swift */; };
+		4D108412265D464400EDCD23 /* Cadastro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D108411265D464400EDCD23 /* Cadastro.swift */; };
+		4D108416265D57ED00EDCD23 /* ListaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D108415265D57ED00EDCD23 /* ListaTableViewController.swift */; };
+		4D1AE896265D6E1E00306420 /* SobreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1AE895265D6E1E00306420 /* SobreViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		4D108401265D453F00EDCD23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D108404265D453F00EDCD23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D108406265D453F00EDCD23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D10840F265D45FE00EDCD23 /* Filme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filme.swift; sourceTree = "<group>"; };
+		4D108411265D464400EDCD23 /* Cadastro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cadastro.swift; sourceTree = "<group>"; };
+		4D108415265D57ED00EDCD23 /* ListaTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaTableViewController.swift; sourceTree = "<group>"; };
+		4D1AE895265D6E1E00306420 /* SobreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SobreViewController.swift; path = Filmes/Controller/SobreViewController.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +64,43 @@
 		4D1083F7265D453B00EDCD23 /* Filmes */ = {
 			isa = PBXGroup;
 			children = (
+				4D10840E265D45A100EDCD23 /* Controller */,
+				4D10840D265D458E00EDCD23 /* Model */,
+				4D10840C265D456600EDCD23 /* View */,
 				4D1083F8265D453B00EDCD23 /* AppDelegate.swift */,
 				4D1083FA265D453B00EDCD23 /* SceneDelegate.swift */,
-				4D1083FC265D453B00EDCD23 /* ViewController.swift */,
-				4D1083FE265D453B00EDCD23 /* Main.storyboard */,
 				4D108401265D453F00EDCD23 /* Assets.xcassets */,
 				4D108403265D453F00EDCD23 /* LaunchScreen.storyboard */,
 				4D108406265D453F00EDCD23 /* Info.plist */,
 			);
 			path = Filmes;
+			sourceTree = "<group>";
+		};
+		4D10840C265D456600EDCD23 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4D1083FE265D453B00EDCD23 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4D10840D265D458E00EDCD23 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4D10840F265D45FE00EDCD23 /* Filme.swift */,
+				4D108411265D464400EDCD23 /* Cadastro.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4D10840E265D45A100EDCD23 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4D1AE895265D6E1E00306420 /* SobreViewController.swift */,
+				4D1083FC265D453B00EDCD23 /* ViewController.swift */,
+				4D108415265D57ED00EDCD23 /* ListaTableViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +174,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D1083FD265D453B00EDCD23 /* ViewController.swift in Sources */,
+				4D108412265D464400EDCD23 /* Cadastro.swift in Sources */,
 				4D1083F9265D453B00EDCD23 /* AppDelegate.swift in Sources */,
+				4D1AE896265D6E1E00306420 /* SobreViewController.swift in Sources */,
 				4D1083FB265D453B00EDCD23 /* SceneDelegate.swift in Sources */,
+				4D108410265D45FE00EDCD23 /* Filme.swift in Sources */,
+				4D108416265D57ED00EDCD23 /* ListaTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
